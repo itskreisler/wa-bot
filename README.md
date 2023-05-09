@@ -6,6 +6,15 @@
 - Scan QR CODE.
 - Finally run script `npm run dev:lib`
 
+## Requirements
+
+To Install backgroundremover, install it from pypi
+
+```python
+pip install --upgrade pip
+pip install backgroundremover
+```
+
 ## Termux fix
 
 - INSTALL GLOBAL NPM PACKAGES

@@ -8,7 +8,7 @@
 
 ## Requirements
 
-To Install backgroundremover, install it from pypi
+To Install [backgroundremover](https://github.com/nadermx/backgroundremover), install it from pypi
 
 ```python
 pip install --upgrade pip
@@ -33,6 +33,16 @@ npm cache clean
 
 ```node
 npm install --no-bin-links
+```
+
+## run pm2
+
+```sh
+pm2 start ./lib/index.cjs --name mi_aplicacion
+pm2 stop mi_aplicacion
+pm2 restart mi_aplicacion
+pm2 delete mi_aplicacion
+pm2 logs mi_aplicacion --lines 40
 ```
 
 ## run sh

@@ -36,3 +36,4 @@ tmp
 .env
 package-lock.json
 .wwebjs_auth
+*.test.*

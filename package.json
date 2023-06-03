@@ -1,7 +1,7 @@
 {
   "name": "bot-wa",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.5.0",
+  "description": "Un bot con multiples funciones para WhatsApp",
   "main": "index.js",
   "scripts": {
     "prod:lib": "node ./lib/index.cjs",

@@ -21,6 +21,7 @@
     "@kreisler/js-google-translate-free": "2.1.0",
     "axios": "1.4.0",
     "colors": "1.4.0",
+    "dayjs": "^1.11.8",
     "dotenv": "16.1.4",
     "fetch": "1.1.0",
     "file-type": "18.5.0",

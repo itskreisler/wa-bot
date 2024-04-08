@@ -12,13 +12,18 @@
     "test:cjs": "node ./bot.test.cjs",
     "test:mjs": "node ./bot.test.mjs",
     "devil": "sh runbot.sh",
-    "node:watch": "node --watch dev.test.js"
+    "node:watch": "node --watch dev.test.js",
+    "pm2:start": "pm2 start ./lib/index.cjs --deep-monitoring --attach --name wa_bot",
+    "pm2:stop": "pm2 stop wa_bot",
+    "pm2:restart": "pm2 restart wa_bot"
   },
   "keywords": [],
   "author": "kreisler",
   "license": "ISC",
   "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
     "@kreisler/js-google-translate-free": "2.1.0",
+    "@whiskeysockets/baileys": "^6.5.0",
     "axios": "1.5.0",
     "colors": "1.4.0",
     "dayjs": "^1.11.8",
@@ -28,13 +33,15 @@
     "glob": "10.3.4",
     "jsdom": "22.1.0",
     "node-cron": "3.0.2",
+    "pino": "^8.16.0",
     "playwright": "1.37.1",
+    "qrcode": "^1.5.3",
     "qrcode-terminal": "0.12.0",
     "query-string": "8.1.0",
     "request": "2.88.2",
     "rss-parser": "^3.13.0",
     "sqlite3": "5.1.6",
-    "whatsapp-web.js": "1.22.1"
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
   },
   "devDependencies": {
     "nodemon": "3.0.1",
@@ -43,7 +50,8 @@
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json",
     "rules": {
-      "space-before-function-paren": "off"
+      "space-before-function-paren": "off",
+      "no-prototype-builtins": "off"
     }
   }
 }

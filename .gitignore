@@ -12,6 +12,8 @@ dist
 docs
 dist-ssr
 *.local
+src/**
+creds/**
 src/json/**
 src/temp/**
 src/tmp/**

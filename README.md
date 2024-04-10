@@ -2,17 +2,17 @@
 
 ## How to use? 🤔
 
-- Install the necessary dependencies with `npm install`
+- Install the necessary dependencies with `npm install`or `pnpm i`
 - Scan QR CODE.
 - Finally run script `npm run dev:lib`
 
 ## Requirements
 
-To Install [backgroundremover](https://github.com/nadermx/backgroundremover), install it from pypi
+To Install [backgroundremover](https://github.com/nadermx/backgroundremover) and `rembg`, install it from pypi
 
 ```python
-pip install --upgrade pip
-pip install backgroundremover
+pip install --upgrade pip #python.exe -m pip install --upgrade pip
+pip install backgroundremover rembg
 ```
 
 ## Termux fix

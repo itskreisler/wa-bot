@@ -15,6 +15,15 @@ pip install --upgrade pip #python.exe -m pip install --upgrade pip
 pip install backgroundremover rembg
 ```
 
+also install [ffmpeg](https://ffmpeg.org/) for windows or linux
+  
+```sh
+sudo apt install ffmpeg
+// choco
+choco install ffmpeg
+
+```
+
 ## Termux fix
 
 - INSTALL GLOBAL NPM PACKAGES

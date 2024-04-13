@@ -101,7 +101,7 @@ class OkRuDl:
                     url = video_url
                     break     """
         video_title = self.filename
-        url = ultimo_elemento["url"]
+        url = primer_elemento["url"]
         final_path = f"{dir}/{video_title}.mp4"
         min_path = f"{dir}/{video_title}_min.mp4"
         download_video(url, final_path)

@@ -31,6 +31,7 @@
     "file-type": "18.5.0",
     "glob": "10.3.4",
     "jsdom": "22.1.0",
+    "latanime-api": "^1.0.0",
     "node-cron": "3.0.2",
     "playwright": "1.43.1",
     "qrcode": "^1.5.3",

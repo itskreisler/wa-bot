@@ -21,7 +21,7 @@
   "author": "kreisler",
   "license": "ISC",
   "dependencies": {
-    "@kreisler/createapi": "^1.0.0",
+    "@kreisler/createapi": "^2.0.0",
     "@kreisler/js-google-translate-free": "4.0.2",
     "animeflv": "^1.0.5",
     "axios": "1.6.8",
@@ -42,6 +42,7 @@
     "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
   },
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
     "nodemon": "3.0.1",
     "standard": "17.1.0"
   },

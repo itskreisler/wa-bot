@@ -32,7 +32,7 @@
     "glob": "10.3.4",
     "jsdom": "22.1.0",
     "latanime-api": "^1.0.0",
-    "node-cron": "3.0.2",
+    "node-cron": "^3.0.3",
     "playwright": "1.43.1",
     "qrcode": "^1.5.3",
     "qrcode-terminal": "0.12.0",
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
+    "@types/node-cron": "^3.0.11",
     "nodemon": "3.0.1",
     "standard": "17.1.0"
   },
